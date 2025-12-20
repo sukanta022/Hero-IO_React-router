@@ -16,7 +16,7 @@ const HomeApps = () => {
                     appData.map(app => <App data={app} key={app.id}></App>)
                 }
             </div>
-            <Link className="btn p-4 px-8 mt-10 border-none text-white rounded-md"
+            <Link to={'/Apps'} className="btn p-4 px-8 mt-10 border-none text-white rounded-md"
             style={{ background: "linear-gradient(135deg, #4e34de 0%, #b46ff4 100%)" }}>Show All</Link>
         </div>
     );
