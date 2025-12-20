@@ -3,6 +3,7 @@ import appsStore from '../../public/appsstore.png'
 import playStore from '../../public/playstore.png'
 import phone from '../../public/Iphone.png'
 const Banner = () => {
+    
     return (
         <section className='pt-15 text-center bg-[#F5F5F5]'>
             <h1 className='text-5xl lg:text-7xl text-[#001931] font-bold'>We Build

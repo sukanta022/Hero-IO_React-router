@@ -1,0 +1,548 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/TsGjfMnT6t75exYhHNomLpux2NRsbEFpDDGujsDqSZ-jqXlVWF55Gno_m8rEGI7Y7MTF=w240-h480-rw",
+    "title": "TaskFlow Pro",
+    "companyName": "FlowSoft Inc.",
+    "id": 1,
+    "description": "TaskFlow Pro is a feature-rich productivity application designed to help individuals and teams organize their work efficiently. The app allows users to create detailed task lists, set priorities, assign deadlines, and track progress visually. With built-in reminders and calendar integration, users never miss important deadlines. TaskFlow Pro also supports team collaboration, enabling shared projects, comments, and updates in real time. The interface is clean and intuitive, making it easy for both beginners and experienced users. Cloud synchronization ensures that data is safely backed up and accessible across multiple devices. Whether managing personal goals or professional projects, TaskFlow Pro enhances productivity and time management.",
+    "size": 42,
+    "reviews": 12450,
+    "ratingAvg": 4.6,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5590 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/5SLG2s107uPPgbkjFsKxdEMI8P85FDxZzZ2lXsryBxP3DhcH49ILOtW7verzgV6Xoavz",
+    "title": "FitTrack Daily",
+    "companyName": "Healthify Labs",
+    "id": 2,
+    "description": "FitTrack Daily is a complete fitness and wellness tracking app built to support healthier lifestyles. Users can track workouts, daily steps, calories burned, water intake, and sleep quality using a single dashboard. The app provides personalized insights and progress charts that help users understand their fitness trends over time. FitTrack Daily supports multiple workout types including running, cycling, yoga, and strength training. Integration with wearable devices allows real-time data syncing. With goal-setting features and motivational reminders, the app encourages consistency and accountability. Whether you are a beginner or a fitness enthusiast, FitTrack Daily helps you stay active and informed.",
+    "size": 58,
+    "reviews": 18200,
+    "ratingAvg": 4.5,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 8530 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/9a/95/7a9a95b8-abc6-3369-fa7d-86639b7fd5c3/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/256x256bb.jpg",
+    "title": "CodeMaster IDE",
+    "companyName": "DevCore Solutions",
+    "id": 3,
+    "description": "CodeMaster IDE is a professional-grade development environment designed for modern programmers. It supports multiple programming languages, intelligent auto-completion, syntax highlighting, and advanced debugging tools. Developers can manage projects efficiently using built-in Git integration and customizable workflows. The app offers flexible themes, keyboard shortcuts, and performance optimization for smoother coding sessions. Real-time error detection and code suggestions help reduce bugs and improve code quality. Cloud backup ensures that projects are always accessible. Whether you are a student learning programming or a professional developer building production applications, CodeMaster IDE enhances productivity and coding confidence.",
+    "size": 96,
+    "reviews": 9800,
+    "ratingAvg": 4.7,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 5360 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4VLfmpsgQ0jhsxtYeqIEa8lkSIwwGhdCAMQ&s",
+    "title": "StudyMate Plus",
+    "companyName": "EduSmart Tech",
+    "id": 4,
+    "description": "StudyMate Plus is an academic support app designed to help students plan, study, and succeed. The app allows users to create personalized study schedules, manage subjects, and set revision reminders. It includes digital notes, flashcards, and progress analytics that help students identify weak areas. A distraction-free focus mode helps improve concentration during study sessions. StudyMate Plus is suitable for school students, university learners, and exam candidates. With cloud backup and cross-device access, students can study anytime, anywhere. The app promotes disciplined learning habits and boosts academic performance through structured planning and smart insights.",
+    "size": 47,
+    "reviews": 14200,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 880 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/fi2B8nYvYc_zWcji3SCB80jW8wDU5H0uajEY7-VcRsrC2KDNUlYAVxWUdGFm2Qybrw=w240-h480-rw",
+    "title": "TravelNest",
+    "companyName": "WanderTech",
+    "id": 5,
+    "description": "TravelNest is a smart travel companion app that simplifies trip planning and management. Users can discover destinations, organize itineraries, track expenses, and receive real-time travel alerts. The app offers curated travel guides, accommodation recommendations, and local attraction suggestions based on user preferences. Offline access to itineraries and maps ensures convenience during travel. TravelNest also allows users to share plans with friends and family. Whether planning a weekend getaway or an international trip, the app provides reliable tools to make travel smooth, organized, and enjoyable.",
+    "size": 64,
+    "reviews": 15600,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 7260 }
+    ]
+  },
+
+  {
+    "image": "https://play-lh.googleusercontent.com/QfyIoKp-d1L62AcppEh0lZVChF9imLdhUkv5RJ-qEIiF6tlzUB6tAs_OkldT5VjwWw",
+    "title": "BudgetWise",
+    "companyName": "FinLogic",
+    "id": 6,
+    "description": "BudgetWise is a personal finance management app that helps users track expenses, manage income, and plan savings effectively. The app categorizes spending automatically and provides monthly insights to help users understand their financial habits. BudgetWise includes budgeting tools, bill reminders, and financial goal tracking. Visual charts make it easy to see where money goes each month. Security features ensure that financial data remains protected. Whether saving for future goals or controlling daily expenses, BudgetWise empowers users to take control of their finances with confidence.",
+    "size": 39,
+    "reviews": 11200,
+    "ratingAvg": 4.5,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 4360 }
+    ]
+  },
+
+  {
+    "image": "https://play-lh.googleusercontent.com/p2tCC605dMBtMSG18WP_elTJUsx_y9JOv8zOEnHVvlnZJjeUhf9yfFOdAEGTsdtHYQ",
+    "title": "FoodieGo",
+    "companyName": "TasteLabs",
+    "id": 7,
+    "description": "FoodieGo is a food discovery and delivery app designed for people who love exploring new cuisines. Users can browse restaurants, view menus, read reviews, and place orders effortlessly. The app offers personalized food recommendations based on preferences and previous orders. Real-time order tracking and secure payments ensure a smooth experience. FoodieGo also features exclusive deals and discounts. Whether craving local dishes or international cuisine, FoodieGo connects users with quality food options quickly and reliably.",
+    "size": 52,
+    "reviews": 20400,
+    "ratingAvg": 4.4,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 7600 },
+      { "name": "5 star", "count": 7580 }
+    ]
+  },
+
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQepGARE1kwV9Tldpgq65g7w_OWFy4qsRPmpA&s",
+    "title": "NoteCraft",
+    "companyName": "Paperless Co.",
+    "id": 8,
+    "description": "NoteCraft is a digital note-taking app designed for simplicity and productivity. Users can create text notes, checklists, and voice notes with ease. The app supports tagging, search, and cloud synchronization for seamless organization. NoteCraft is ideal for students, professionals, and creatives who want a clean and distraction-free note-taking experience. With offline access and automatic backups, users can rely on their notes anytime. The app emphasizes speed, usability, and reliability for everyday productivity.",
+    "size": 29,
+    "reviews": 8700,
+    "ratingAvg": 4.3,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3550 }
+    ]
+  },
+
+  {
+    "image": "https://play-lh.googleusercontent.com/DVFCDTPFQcnhXqP3dywnG0YsBVOKOpUed8PSVE5ux0xKdRgmC5tS13LTBJS_YnV4zRg=w526-h296-rw",
+    "title": "MindRelax",
+    "companyName": "CalmSpace",
+    "id": 9,
+    "description": "MindRelax is a meditation and mental wellness app designed to reduce stress and improve emotional balance. The app offers guided meditation sessions, breathing exercises, and calming soundscapes. Users can customize sessions based on mood and available time. MindRelax also includes sleep stories and relaxation techniques to improve sleep quality. With daily reminders and progress tracking, users can build consistent mindfulness habits. The app promotes mental clarity, focus, and overall well-being in a simple and supportive way.",
+    "size": 61,
+    "reviews": 16500,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 330 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 9260 }
+    ]
+  },
+
+  {
+    "image": "https://play-lh.googleusercontent.com/UxIJEGNjCqIyT0G6juqFUyEv7PcIildbwJSkDzZ77IkoR-oYdDyqVjfAg6CJwUEletw=w240-h480-rw",
+    "title": "ShopSmart",
+    "companyName": "RetailX",
+    "id": 10,
+    "description": "ShopSmart is a modern e-commerce app designed to make online shopping simple and enjoyable. Users can browse products across multiple categories, compare prices, and read verified reviews. The app offers secure payments, fast delivery tracking, and personalized product recommendations. Exclusive deals and flash sales help users save money. ShopSmart emphasizes reliability, convenience, and customer satisfaction, making it a trusted platform for everyday shopping needs.",
+    "size": 70,
+    "reviews": 27500,
+    "ratingAvg": 4.5,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 820 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 9600 },
+      { "name": "5 star", "count": 10580 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/xStBcJPuPBtrPnQi8swLwib0wnIQOZp2J7ckVAj7NHXHcJBAg4IiwRbYxAHd4Cj2TQ",
+    "title": "WeatherNow",
+    "companyName": "SkyData Systems",
+    "id": 11,
+    "description": "WeatherNow is a reliable and accurate weather forecasting application designed to keep users informed about current and upcoming weather conditions. The app provides real-time updates, hourly forecasts, and extended weekly predictions with detailed metrics such as temperature, humidity, wind speed, and air quality. WeatherNow uses advanced meteorological data sources to ensure accuracy and reliability. Users can save multiple locations, receive severe weather alerts, and customize notifications based on preferences. Whether planning daily activities or long trips, WeatherNow helps users stay prepared and make informed decisions with confidence.",
+    "size": 33,
+    "reviews": 11800,
+    "ratingAvg": 4.4,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 360 },
+      { "name": "2 star", "count": 610 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 4530 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr0aYd7pAzxorO1JNpHKqn-hEUSI4L7KFryg&s",
+    "title": "PhotoSnap Editor",
+    "companyName": "PixelForge",
+    "id": 12,
+    "description": "PhotoSnap Editor is a versatile photo editing application built for creators of all skill levels. The app offers powerful editing tools such as filters, cropping, color correction, retouching, and advanced adjustment layers. Users can enhance images quickly while maintaining high quality output. PhotoSnap Editor also supports creative overlays, text tools, and export options for social media platforms. The intuitive interface allows users to edit photos efficiently without feeling overwhelmed. Whether enhancing travel photos or creating professional content, PhotoSnap Editor provides flexibility and creative control.",
+    "size": 85,
+    "reviews": 21400,
+    "ratingAvg": 4.6,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 9580 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJhmn9agxqx6fXNNe8OU155Q8J-uZ1F6NUlA&s",
+    "title": "MusicWave",
+    "companyName": "SoundSphere",
+    "id": 13,
+    "description": "MusicWave is a high-quality music streaming app designed to deliver an immersive listening experience. Users can explore millions of tracks, curated playlists, and personalized recommendations based on listening habits. The app supports offline downloads, high-definition audio, and seamless playback across devices. MusicWave also allows users to create and share playlists with friends. With a clean interface and powerful discovery features, the app makes it easy to find new artists and enjoy favorite songs anytime. MusicWave is ideal for casual listeners and music enthusiasts alike.",
+    "size": 74,
+    "reviews": 36500,
+    "ratingAvg": 4.7,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 940 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 11200 },
+      { "name": "5 star", "count": 18940 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/dNsV3Kkp7t94NWrLTKgbSeZSsMUea5QblPFhTCgq5L3hk7LctKzzpQt8ceWzTotw3vI",
+    "title": "DocScan Pro",
+    "companyName": "Scanify",
+    "id": 14,
+    "description": "DocScan Pro is a document scanning and management app designed for professionals and students. It allows users to scan documents using their camera, convert them into high-quality PDFs, and organize files efficiently. The app includes OCR technology for extracting text and making documents searchable. Secure cloud backup ensures document safety and accessibility. DocScan Pro is ideal for managing invoices, notes, contracts, and academic materials. With simple sharing options and strong security features, it streamlines document handling in a digital-first world.",
+    "size": 48,
+    "reviews": 16200,
+    "ratingAvg": 4.5,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 410 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5300 },
+      { "name": "5 star", "count": 7170 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/d9/42/2f/d9422f08-c651-c6f2-1bee-87d31b7b7e40/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/1200x630wa.png",
+    "title": "LearnLang",
+    "companyName": "LinguaTech",
+    "id": 15,
+    "description": "LearnLang is a language learning app designed to help users master new languages through interactive lessons and practice sessions. The app offers vocabulary training, pronunciation exercises, grammar lessons, and real-life conversation simulations. Personalized learning paths adapt to user progress and goals. LearnLang supports multiple languages and skill levels, making it suitable for beginners and advanced learners. With daily practice reminders and progress tracking, the app encourages consistency and long-term learning success.",
+    "size": 55,
+    "reviews": 19800,
+    "ratingAvg": 4.6,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 390 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 9890 }
+    ]
+  },
+  {
+    "image": "https://yt3.googleusercontent.com/Pr-HVipa80MzZFL9uRtX3ZvVO7JbATPflfrohwhWy4BUj_GNN6lo1QeoGFZxrVCJH9VJDG_FlA=s900-c-k-c0x00ffffff-no-rj",
+    "title": "CarCare Plus",
+    "companyName": "AutoTech Labs",
+    "id": 16,
+    "description": "CarCare Plus is a vehicle maintenance management app designed to help car owners keep track of servicing, fuel consumption, and expenses. The app provides reminders for oil changes, insurance renewals, and routine inspections. Users can log mileage, repair history, and maintenance costs for better budgeting. CarCare Plus helps extend vehicle lifespan and reduce unexpected breakdowns through timely alerts and detailed records.",
+    "size": 46,
+    "reviews": 9100,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3760 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/gZlidIsJxKx9Do6rIYgus_Ptmc9xDMwUmCMBgGhIxtFbhpzWKgNW-mIn4nqcOZmY6Qo",
+    "title": "NewsPulse",
+    "companyName": "MediaGrid",
+    "id": 17,
+    "description": "NewsPulse is a fast and reliable news aggregation app that delivers breaking news and in-depth stories from trusted sources worldwide. Users can personalize their feed based on interests such as technology, business, sports, and entertainment. The app provides real-time notifications for important updates and offline reading options. NewsPulse ensures balanced coverage and easy navigation, making it an ideal companion for staying informed.",
+    "size": 41,
+    "reviews": 24300,
+    "ratingAvg": 4.5,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 540 },
+      { "name": "2 star", "count": 920 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 10340 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/goKivwK6ycsjODwor8xyF3s6jAJqsz33GpPqGkCx70cR9e8t8C0AAfYCUMplPY0PmQ0=w240-h480-rw",
+    "title": "CloudVault",
+    "companyName": "SecureNet",
+    "id": 18,
+    "description": "CloudVault is a secure cloud storage app designed to protect and organize digital files. Users can store photos, videos, documents, and backups safely with encryption. The app supports automatic sync, file sharing, and cross-device access. CloudVault prioritizes data privacy and reliability, making it suitable for both personal and professional use.",
+    "size": 67,
+    "reviews": 17400,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 8070 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/DP2dxTbQZg-L7RO6Q-DG2N-RAHQrVaec8t9NOCKIsYr75sG0uIbHsQc31ClDU-AjTJDd",
+    "title": "HomePlanner",
+    "companyName": "BuildSmart",
+    "id": 19,
+    "description": "HomePlanner is a home design and planning app that helps users visualize and organize interior layouts. The app allows users to create floor plans, arrange furniture, and experiment with design styles. HomePlanner is ideal for homeowners, renters, and designers looking to plan renovations or redesign spaces efficiently. With realistic previews and easy tools, users can turn ideas into practical designs.",
+    "size": 78,
+    "reviews": 13600,
+    "ratingAvg": 4.4,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 430 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 5090 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpO9WHNrERYIJNpJgEM_HOgHwX_tDRmUdGRg&s",
+    "title": "EventEase",
+    "companyName": "PlanIt",
+    "id": 20,
+    "description": "EventEase is an event planning and management app designed to simplify organizing gatherings, meetings, and celebrations. Users can create event schedules, manage guest lists, send invitations, and track RSVPs. The app supports reminders, location sharing, and collaborative planning. EventEase helps hosts stay organized and ensures smooth execution of events of any size.",
+    "size": 44,
+    "reviews": 10200,
+    "ratingAvg": 4.5,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 4240 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/CH_XUrL7OA4E49kFjcnZyzhVWuOEuBCZ1mfUZxY8ey8AyGnIBSuprVM3rKeVdcbllw",
+    "title": "CryptoTrack",
+    "companyName": "BlockView",
+    "id": 21,
+    "description": "CryptoTrack is a cryptocurrency portfolio tracking app designed for investors and traders. Users can monitor prices, market trends, and portfolio performance in real time. The app supports multiple exchanges and digital assets. CryptoTrack provides alerts, analytics, and historical charts to help users make informed investment decisions.",
+    "size": 59,
+    "reviews": 22100,
+    "ratingAvg": 4.6,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 480 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 9760 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-s5CvWim7jPWPOa4OiyU0uzE526MvVAR9Bg&s",
+    "title": "SleepWell",
+    "companyName": "Restify",
+    "id": 22,
+    "description": "SleepWell is a sleep improvement app designed to help users achieve better rest and recovery. The app offers sleep tracking, calming sounds, bedtime reminders, and sleep analysis. Users can identify sleep patterns and receive personalized recommendations. SleepWell promotes healthy sleep habits and improved daily energy levels.",
+    "size": 50,
+    "reviews": 18900,
+    "ratingAvg": 4.7,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5900 },
+      { "name": "5 star", "count": 10230 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/hEzUwZk1CG_tvWLynd_Df3pQXdpexnM3eHWxpUtI3YIjoOTewz-QdRYmf0C0mtJBcHNS",
+    "title": "PodcastHub",
+    "companyName": "AudioLoop",
+    "id": 23,
+    "description": "PodcastHub is an all-in-one podcast streaming app designed for listeners who enjoy diverse audio content. The app provides access to thousands of podcasts across categories such as education, entertainment, technology, and business. Users can subscribe, download episodes, and receive personalized recommendations. PodcastHub supports offline listening and playback customization.",
+    "size": 62,
+    "reviews": 15800,
+    "ratingAvg": 4.5,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 5100 },
+      { "name": "5 star", "count": 6830 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfGgJpLv59taIdsC7Xhb4Qb2K_YPIShis80Q&s",
+    "title": "InvoiceEasy",
+    "companyName": "BizFlow",
+    "id": 24,
+    "description": "InvoiceEasy is a business invoicing app designed for freelancers and small businesses. The app allows users to create professional invoices, track payments, and manage clients efficiently. With customizable templates and automated reminders, InvoiceEasy helps improve cash flow and reduce administrative workload.",
+    "size": 36,
+    "reviews": 8300,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3540 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/9VB5z6hvZbcn2VvPZNOhBkWWXsIhUB0KBKBvewSk_JGC5rFE23B4LJKV8kuZWsYNro5C",
+    "title": "AI ChatMate",
+    "companyName": "NeuralApps",
+    "id": 25,
+    "description": "AI ChatMate is an intelligent conversational assistant designed to help users with daily tasks, learning, and productivity. The app can answer questions, generate ideas, summarize content, and assist with planning. With natural language understanding and continuous improvement, AI ChatMate adapts to user needs and preferences.",
+    "size": 72,
+    "reviews": 41200,
+    "ratingAvg": 4.8,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 2610}
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/1sWfDhk6pwh_BMiq5RWr92dvECV6h8drLNz2LOi39RAeXz3YzsAJ2ZT0Cteabw9B0ow",
+    "title": "MapNavigator",
+    "companyName": "GeoPath",
+    "id": 26,
+    "description": "MapNavigator is a GPS navigation app designed to provide accurate directions and traffic updates. Users can find routes, avoid congestion, and discover nearby places. Offline maps and voice navigation ensure reliable guidance during travel.",
+    "size": 88,
+    "reviews": 27500,
+    "ratingAvg": 4.6,
+    "downloads": 3800000,
+    "ratings": [
+      { "name": "1 star", "count": 590 },
+      { "name": "2 star", "count": 910 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 9300 },
+      { "name": "5 star", "count": 11610 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/gvUWha_BWaq5HltmPlG2nVyZj6Qt9UO6HraXMfZqKHGaCgZ00Hr5Vmy18544U_sigA",
+    "title": "HabitBuilder",
+    "companyName": "LifeTrack",
+    "id": 27,
+    "description": "HabitBuilder is a habit formation and self-improvement app designed to help users build positive routines. The app provides habit tracking, reminders, and motivational insights. Users can monitor progress and stay consistent with daily goals.",
+    "size": 34,
+    "reviews": 11900,
+    "ratingAvg": 4.5,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 460 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 5150 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/biTggbWXzraKWmJzASJZKPqUDc1e3C0YjiTmYa5N51CRYpEGUYNme4SD9_UXHqMSSeLWmojPfzstIOdhlyaR=w240-h480-rw",
+    "title": "VideoVault",
+    "companyName": "StreamBox",
+    "id": 28,
+    "description": "VideoVault is a video streaming and storage app designed for entertainment and content management. Users can stream videos, organize libraries, and download content for offline viewing. The app focuses on smooth playback and easy navigation.",
+    "size": 92,
+    "reviews": 34400,
+    "ratingAvg": 4.6,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 710 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 10300 },
+      { "name": "5 star", "count": 16090 }
+    ]
+  },
+  {
+    "image": "https://www.resumebuilder.com/wp-content/uploads/2023/12/press-banner.png",
+    "title": "ResumeBuilder",
+    "companyName": "CareerPath",
+    "id": 29,
+    "description": "ResumeBuilder is a career development app designed to help users create professional resumes and cover letters. The app offers templates, guidance, and formatting tools to highlight skills effectively.",
+    "size": 38,
+    "reviews": 9700,
+    "ratingAvg": 4.4,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 4270 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/e0jIAj5LTNG6tLOnDu0DR1uSPX6APdeX9Z2c9jGOWDPlKus8qhfGVoPEIwXOn4PlXmI_",
+    "title": "SmartHome Hub",
+    "companyName": "IoT Works",
+    "id": 30,
+    "description": "SmartHome Hub is a home automation app designed to control and monitor smart devices from a single platform. Users can manage lighting, security cameras, thermostats, and appliances remotely. Automation rules and voice integration make daily living more convenient and efficient.",
+    "size": 81,
+    "reviews": 22600,
+    "ratingAvg": 4.6,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  }
+
+]
