@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useApps from '../../hooks/useApps';
 import App from '../../Components/Apps/App';
+import { Search } from 'lucide-react';
 
 const AppsList = () => {
     const {apps} = useApps()
@@ -16,12 +17,13 @@ const AppsList = () => {
             <div className='w-11/12 mx-auto flex justify-between items-center mt-8'>
                 <p className='text-[#001931] text-2xl text-left font-semibold'>({searchedApps.length}) Apps Found</p>
 
-                <label className='input'>
+                <label className='input border-2 border-[#001931]/50'>
+                    <Search className='text-[#C6CCD1]' />
                     <input
                         value={search}
                         onChange={e => setSearch(e.target.value)}
                         type='search'
-                        placeholder='Search Products'
+                        placeholder= 'Search apps'
                     />
                 </label>
             </div>
