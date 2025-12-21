@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../../public/logo-D9NHcesw 1.png'
 const Footer = () => {
     return (
-        <div className='bg-[#001931] mt-10 mb-0'>
+        <div className='bg-[#001931]  mb-0'>
             <div className='flex flex-col text-center lg:text-left lg:flex-row justify-between gap-10 lg:gap-30 py-15 w-11/12 mx-auto'>
                 <div className='lg:w-250 space-y-3'>
                     <div className='text-white font-bold text-2xl flex gap-2 items-center'>

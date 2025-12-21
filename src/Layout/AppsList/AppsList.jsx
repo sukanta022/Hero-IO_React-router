@@ -6,8 +6,25 @@ import { Search } from 'lucide-react';
 const AppsList = () => {
     const {apps} = useApps()
     const [search, setSearch] = useState('')
+    const [sortOrder, setSortOrder] = useState('none')
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(term)): apps
+
+
+    const sortedItem = () => {
+        if(sortOrder === "high"){
+            return [...searchedApps].sort((a,b) => b.downloads - a.downloads)
+        }
+        else if(sortOrder === "low"){
+            return [...searchedApps].sort((a,b) => a.downloads - b.downloads)
+        }
+        else{
+            return searchedApps
+        }
+    }
+
+    
+
     return (
         <div className='pt-15 text-center bg-[#F5F5F5] space-y-3'>
             
@@ -16,6 +33,21 @@ const AppsList = () => {
 
             <div className='w-11/12 mx-auto flex justify-between items-center mt-8'>
                 <p className='text-[#001931] text-2xl text-left font-semibold'>({searchedApps.length}) Apps Found</p>
+
+
+
+                <ul className="menu  text-white rounded-box bg-[#001931]">
+                    <li>
+                        <details>
+                        <summary className='font-semibold'>Sort By</summary>
+                        
+                            <li className='hover:bg-white hover:text-black'><button onClick={() => setSortOrder("high")}>High-Low</button></li>
+                            <li className='hover:bg-white hover:text-black'><button onClick={() => setSortOrder("low")}>Low-High</button></li>
+                            
+                        </details>
+                    </li>
+                </ul>
+
 
                 <label className='input border-2 border-[#001931]/50'>
                     <Search className='text-[#C6CCD1]' />
@@ -28,11 +60,16 @@ const AppsList = () => {
                 </label>
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mt-8 w-11/12 mx-auto'>
+            {
+                !searchedApps.length ? <div className='text-center max-h-screen text-3xl font-bold text-[#001931]'>No data available</div> : <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mt-8 w-11/12 mx-auto'>
                 {
-                    searchedApps.map(app => <App data={app} key={app.id}></App>)
+                    sortedItem().map(app => <App data={app} key={app.id}></App>)
                 }
-            </div>
+                </div>
+
+            }
+
+            
         </div>
     );
 };
