@@ -61,7 +61,7 @@ const AppsList = () => {
             </div>
 
             {
-                !searchedApps.length ? <div className='text-center max-h-screen text-3xl font-bold text-[#001931]'>No data available</div> : <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mt-8 w-11/12 mx-auto'>
+                !searchedApps.length ? <div className='text-center p-10 max-h-screen text-3xl font-bold text-[#001931]'>No data available</div> : <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mt-8 w-11/12 mx-auto'>
                 {
                     sortedItem().map(app => <App data={app} key={app.id}></App>)
                 }
