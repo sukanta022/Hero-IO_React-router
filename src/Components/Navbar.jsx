@@ -7,7 +7,7 @@ const Navbar = () => {
         <li className='hover:border-b-2 hover:border-b-[#905DEC] hover:text-[#905DEC]'><Link>
         Home</Link></li>
         <li className='hover:border-b-2 hover:border-b-[#905DEC] hover:text-[#905DEC]'><Link to={'/Apps'}>Apps</Link></li>
-        <li className='hover:border-b-2 hover:border-b-[#905DEC] hover:text-[#905DEC]'><Link>Installation</Link></li>
+        <li className='hover:border-b-2 hover:border-b-[#905DEC] hover:text-[#905DEC]'><Link to={'/Installation'}>Installation</Link></li>
     </>
     
     return (

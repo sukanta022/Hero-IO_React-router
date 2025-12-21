@@ -5,6 +5,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
 import Chart from '../chart';
+import { addToStore } from '../../utility/addToDB';
 
 const AppDetails = () => {
     const {id} = useParams()
@@ -16,12 +17,17 @@ const AppDetails = () => {
   }
     const {image, title, ratings, description, ratingAvg, reviews, downloadsM,companyName, size} = data
     
+    const handleInstall = (ID) => {
+        addToStore(ID)
+        alert("installed")
+    } 
+
     return (
         <div className='w-10/12 mx-auto py-20'>
             
-            <div className='flex flex-col lg:flex-row justify-between text-center lg:text-start items-center gap-10 mb-10'>
+            <div className='flex flex-col lg:flex-row justify-between text-center lg:text-start items-center gap-10 mb-12'>
                 <img src={image} alt="" className='w-66 h-70 shadow-2xl' />
-                <div >
+                <div className='w-10/12'>
 
                     <h1 className='text-3xl font-bold pb-1'>{title}</h1>
                     <p className='text-[#99A4AD] border-b-2 w-full pb-4'>Developed by <span className='text-[#7B43E9]'>{companyName}</span></p>
@@ -46,7 +52,7 @@ const AppDetails = () => {
                         </div>
                     </div>
 
-                    <button className='btn p-3 md:p-5 text-[18px] bg-[#00D390] text-white font-semibold rounded-md'>Install Now ({size} MB)</button>
+                    <button onClick={() => handleInstall(ID)} className='btn p-3 md:p-5 text-[18px] bg-[#00D390] text-white font-semibold rounded-md'>Install Now ({size} MB)</button>
 
                 </div>
                 
