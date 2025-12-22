@@ -1,15 +1,21 @@
 
-import { getInstallApp } from "../../utility/addToDB";
+import { getInstallApp, removeToDB } from "../../utility/addToDB";
 import useApps from "../../hooks/useApps";
 import InstalledApp from "../../Components/InstalledApp";
+import { useState } from "react";
+
 
 
 const Installation = () => {
     const {apps} = useApps()
     const allInstalledApp = getInstallApp()
-    
+    const [installApp, setInstallApp] = useState(allInstalledApp)
     const data = apps.filter(app =>  allInstalledApp.includes(app.id))
-    
+    console.log(installApp)
+    const handleRemove = (id) => {
+        removeToDB(id)
+        setInstallApp(prev => prev.filter(p => p.id !== id))
+    }
     return (
         <div className='pt-15 bg-[#F5F5F5] space-y-3 w-11/12 mx-auto '>
             
@@ -18,7 +24,7 @@ const Installation = () => {
             
             <div className="space-y-5">
                 {
-                    data.map(app => <InstalledApp data={app} key={app.id}></InstalledApp>)
+                    data.map(app => <InstalledApp data={app} key={app.id} handleRemove={handleRemove}></InstalledApp>)
                 }
             </div>
             

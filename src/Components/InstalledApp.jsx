@@ -2,8 +2,9 @@ import React from 'react';
 import { AiFillLike } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
-const InstalledApp = ({data}) => {
-    const {image, title, ratingAvg, downloadsM, size} = data
+
+const InstalledApp = ({data,handleRemove}) => {
+    const {image, title, ratingAvg, downloadsM, size, id} = data
 
     return (
         <div className="bg-white w-full px-5 py-2 flex justify-between items-center">
@@ -20,7 +21,7 @@ const InstalledApp = ({data}) => {
                 </div>
             </div>
 
-            <button  className='btn p-3 md:p-5 text-[18px] bg-[#00D390] text-white font-semibold rounded-md'>Uninstall</button>
+            <button  onClick={() =>  handleRemove(id)} className='btn p-3 md:p-5 text-[18px] bg-[#00D390] text-white font-semibold rounded-md'>Uninstall</button>
         </div>
     );
 };
