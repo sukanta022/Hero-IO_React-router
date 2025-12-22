@@ -6,6 +6,7 @@ import { FaStar } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
 import Chart from '../chart';
 import { addToStore, getInstallApp } from '../../utility/addToDB';
+import { toast } from 'react-toastify';
 
 const AppDetails = () => {
     const {id} = useParams()
@@ -24,9 +25,13 @@ const AppDetails = () => {
     const {image, title, ratings, description, ratingAvg, reviews, downloadsM,companyName, size} = data
 
     const handleInstall = (ID) => {
-        addToStore(ID)
-        alert("installed")
-        setIsInstall(true)
+        toast(`${title} installation on progress`)
+        
+        setTimeout(() => {
+            addToStore(ID);
+            setIsInstall(true);
+            toast.success("Succesfully installed")
+        }, 5500); 
     } 
 
 

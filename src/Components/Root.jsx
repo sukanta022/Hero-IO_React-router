@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import { Outlet } from 'react-router';
 import Footer from './Footer';
+import { ToastContainer } from 'react-toastify';
 
 
 const Root = () => {
@@ -14,6 +15,20 @@ const Root = () => {
             </div>
             
             <Footer></Footer>
+
+            <ToastContainer
+        position="top-center"
+        autoClose={4000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        
+      />
             
             
         </div>

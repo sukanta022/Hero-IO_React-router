@@ -3,6 +3,7 @@ import { getInstallApp, removeToDB } from "../../utility/addToDB";
 import useApps from "../../hooks/useApps";
 import InstalledApp from "../../Components/InstalledApp";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 
 
@@ -14,6 +15,7 @@ const Installation = () => {
     console.log(installApp)
     const handleRemove = (id) => {
         removeToDB(id)
+        toast.success("Uninstall Succesfully")
         setInstallApp(prev => prev.filter(p => p.id !== id))
     }
     return (
