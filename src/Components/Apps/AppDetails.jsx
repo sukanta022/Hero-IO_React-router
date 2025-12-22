@@ -7,21 +7,26 @@ import { AiFillLike } from "react-icons/ai";
 import Chart from '../chart';
 import { addToStore, getInstallApp } from '../../utility/addToDB';
 import { toast } from 'react-toastify';
-
+import logo from '../../../public/logo-D9NHcesw 1.png'
 const AppDetails = () => {
     const {id} = useParams()
     const ID = parseInt(id)
-    const {apps} = useApps()
+    const {apps, loading} = useApps()
     const data = apps.find(app => app.id === ID)
+
+    
     const [isInstall, setIsInstall] = useState(false)
 
     useEffect(() => {
         setIsInstall(getInstallApp().includes(ID));
     }, [ID]);
 
-    if (!data) {
-        return <p>Loading...</p>;
+    
+
+    if (loading) {
+        return <div className='flex place-content-center p-10 max-h-screen text-3xl md:text-5xl font-bold text-[#001931]'>L <img src={logo} alt="" className="animate-spin"></img> ading..</div>;
     }
+    
     const {image, title, ratings, description, ratingAvg, reviews, downloadsM,companyName, size} = data
 
     const handleInstall = (ID) => {
@@ -34,7 +39,7 @@ const AppDetails = () => {
         }, 5500); 
     } 
 
-
+    
 
     return (
         <div className='w-10/12 mx-auto py-20'>

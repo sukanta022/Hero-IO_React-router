@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import useApps from '../../hooks/useApps';
 import App from '../../Components/Apps/App';
 import { Search } from 'lucide-react';
-
+import logo from '../../../public/logo-D9NHcesw 1.png'
 const AppsList = () => {
-    const {apps} = useApps()
+    const {apps, loading} = useApps()
     const [search, setSearch] = useState('')
     const [sortOrder, setSortOrder] = useState('none')
+    const [searchLoading, setSearchLoading] = useState(false);
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(term)): apps
 
@@ -34,8 +35,6 @@ const AppsList = () => {
             <div className='w-11/12 mx-auto flex justify-between items-center mt-8'>
                 <p className='text-[#001931] text-2xl text-left font-semibold'>({searchedApps.length}) Apps Found</p>
 
-
-
                 <ul className="menu  text-white rounded-box bg-[#001931]">
                     <li>
                         <details>
@@ -53,7 +52,15 @@ const AppsList = () => {
                     <Search className='text-[#C6CCD1]' />
                     <input
                         value={search}
-                        onChange={e => setSearch(e.target.value)}
+                        onChange={(e) => {
+                            setSearch(e.target.value)
+                            setSearchLoading(true)
+                            setTimeout(() => {
+                                setSearchLoading(false);
+                            }, 200);
+
+                        }}
+                        
                         type='search'
                         placeholder= 'Search apps'
                     />
@@ -61,10 +68,11 @@ const AppsList = () => {
             </div>
 
             {
-                !searchedApps.length ? <div className='text-center p-10 max-h-screen text-3xl font-bold text-[#001931]'>No data available</div> : <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mt-8 w-11/12 mx-auto'>
-                {
-                    sortedItem().map(app => <App data={app} key={app.id}></App>)
-                }
+                loading || searchLoading ? <div className='flex place-content-center p-10 max-h-screen text-3xl md:text-5xl font-bold text-[#001931]'>L <img src={logo} alt="" className="animate-spin"></img> ading..</div> : (!searchedApps.length) ?
+                 <div className='text-center p-10 max-h-screen text-3xl font-bold text-[#001931]'>No data available</div> : <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 mt-8 w-11/12 mx-auto'>
+                    {
+                        sortedItem().map(app => <App data={app} key={app.id}></App>)
+                    }
                 </div>
 
             }
