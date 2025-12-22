@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { Github } from 'lucide-react';
 import logo from '../../public/logo-D9NHcesw 1.png'
+
 const Navbar = () => {
     const navList = <>
         <li className='hover:border-b-2 hover:border-b-[#905DEC] hover:text-[#905DEC]'><Link>
@@ -25,10 +26,10 @@ const Navbar = () => {
                             {navList}
                         </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl mx-[-20px]">
+                        <Link to={'/'} className="btn btn-ghost text-xl mx-[-20px]">
                             <img src={logo} alt="" />
-                             <span className='bg-[linear-gradient(135deg,#4e34de,#b46ff4)] bg-clip-text text-transparent'>Hero.IO</span>
-                        </a>
+                             <span className='bg-[linear-gradient(135deg,#4e34de,#b46ff4)] bg-clip-text text-transparent text-bold'>Hero.IO</span>
+                        </Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal space-x-4">

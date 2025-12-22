@@ -1,26 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../../hooks/useApps';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
 import Chart from '../chart';
-import { addToStore } from '../../utility/addToDB';
+import { addToStore, getInstallApp } from '../../utility/addToDB';
 
 const AppDetails = () => {
     const {id} = useParams()
     const ID = parseInt(id)
     const {apps} = useApps()
     const data = apps.find(app => app.id === ID)
+    const [isInstall, setIsInstall] = useState(false)
+
+    useEffect(() => {
+        setIsInstall(getInstallApp().includes(ID));
+    }, [ID]);
+
     if (!data) {
         return <p>Loading...</p>;
-  }
+    }
     const {image, title, ratings, description, ratingAvg, reviews, downloadsM,companyName, size} = data
-    
+
     const handleInstall = (ID) => {
         addToStore(ID)
         alert("installed")
+        setIsInstall(true)
     } 
+
+
 
     return (
         <div className='w-10/12 mx-auto py-20'>
@@ -52,7 +61,8 @@ const AppDetails = () => {
                         </div>
                     </div>
 
-                    <button onClick={() => handleInstall(ID)} className='btn p-3 md:p-5 text-[18px] bg-[#00D390] text-white font-semibold rounded-md'>Install Now ({size} MB)</button>
+                    <button onClick={() => handleInstall(ID) } className='btn p-3 md:p-5 text-[18px] bg-[#00D390] text-white font-semibold rounded-md'
+                        disabled={isInstall}>{isInstall ? "Installed":`Install Now (${size} MB)`}</button>
 
                 </div>
                 
