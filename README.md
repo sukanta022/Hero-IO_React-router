@@ -9,7 +9,7 @@ This application allows users to explore apps, search and filter them in real ti
 
 <b>🛠️ Technologies Used</b> <br>
 <ul>
-  <li>React</li
+  <li>React</li>
   <li>React Router</li>
   <li>Recharts</li>
   <li>LocalStorage</li>
