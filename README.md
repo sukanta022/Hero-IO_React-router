@@ -1,16 +1,43 @@
-# React + Vite
+<b>📱 Hero.IO – React Project</b> <br>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern App Store–style web application built with React, inspired by real-world app marketplaces. This project focuses on component-based UI design, dynamic routing, state management, localStorage integration, and data visualization using charts.<br><br>
 
-Currently, two official plugins are available:
+<b>🚀 Project Overview</b> <br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application allows users to explore apps, search and filter them in real time, view detailed app information, install/uninstall apps, and track installations using localStorage. The UI follows a Figma-based design with smooth navigation, loading animations, and a responsive layout. <br> <br>
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<b>🛠️ Technologies Used</b> <br>
+<ul>
+  <li>React</li
+  <li>React Router</li>
+  <li>Recharts</li>
+  <li>LocalStorage</li>
+  <li>Tailwind CSS / DaisyUI</li>
+  <li>React Icons</li>
+  <li>Toast Notifications</li>
+</ul>
 
-## Expanding the ESLint configuration
+<br><br>
+<b>🔗 Live Demo & Contribution</b><br>
+<ul>
+  <li>🔗 Live Site: https://deft-puffpuff-c840c1.netlify.app/</li>
+  <li>🧩 Figma Design: https://www.figma.com/design/Mo8hu1appulXAWLDtAU1hw/Hero-IO?node-id=253-1280&p=f&m=draw</li>
+</ul>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
