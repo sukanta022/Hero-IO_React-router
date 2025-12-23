@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
+import { Navigate, useParams } from 'react-router';
 import useApps from '../../hooks/useApps';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
@@ -26,6 +26,11 @@ const AppDetails = () => {
     if (loading) {
         return <div className='flex place-content-center p-10 max-h-screen text-3xl md:text-5xl font-bold text-[#001931]'>L <img src={logo} alt="" className="animate-spin"></img> ading..</div>;
     }
+
+
+    if (!data) {
+    return <Navigate to="*" replace />;
+  }
     
     const {image, title, ratings, description, ratingAvg, reviews, downloadsM,companyName, size} = data
 

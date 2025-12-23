@@ -10,7 +10,7 @@ import ErrorPage from "../Layout/ErrorPage/ErrorPage";
 export const router = createBrowserRouter([
   {
     path: "/",
-    
+    errorElement: ErrorPage,
     Component: Root,
     
     children: [
@@ -24,7 +24,8 @@ export const router = createBrowserRouter([
         },
         {
           path: '/AppDetails/:id',
-          Component: AppDetails
+          Component: AppDetails,
+          
         },
         {
           path: '/Installation',
@@ -34,8 +35,6 @@ export const router = createBrowserRouter([
           path: '*',
           Component: ErrorPage
         }
-
-
     ]
   },
   

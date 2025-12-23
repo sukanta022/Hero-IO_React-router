@@ -42,7 +42,7 @@ const Navbar = () => {
                             className="btn p-4 border-none text-white rounded-md"
                             style={{ background: "linear-gradient(135deg, #4e34de 0%, #b46ff4 100%)" }}
                         >    
-                            <Github className="text-white rounded-full" />
+                            <Github className="text-white rounded-full " />
                             Contribute
                         </a>
                         

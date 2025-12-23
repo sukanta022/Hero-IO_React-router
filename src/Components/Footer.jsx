@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='bg-[#001931] mb-[-25px]'>
             <div className='flex flex-col text-center lg:text-left lg:flex-row justify-between gap-10 lg:gap-30 py-15 w-11/12 mx-auto'>
                 <div className='lg:w-250 space-y-3'>
-                    <div className='text-white font-bold text-2xl flex gap-2 items-center'>
+                    <div className='text-white font-bold text-2xl flex gap-2 items-center justify-center lg:justify-start'>
                         <img src={logo} alt="" />
                         <p>Hero.IO</p>
                     </div>

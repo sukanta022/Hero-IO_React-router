@@ -1,13 +1,8 @@
 const addToStore = (id) => {
     const appInstallData = getInstallApp()
-    if(appInstallData.includes(id)){
-        alert("Book already exist")
-    }
-    else {
-        appInstallData.push(id)
-        const data = JSON.stringify(appInstallData)
-        localStorage.setItem("applist", data)
-    }
+    appInstallData.push(id)
+    const data = JSON.stringify(appInstallData)
+    localStorage.setItem("applist", data)  
 }
 
 const removeToDB = (id) =>{
